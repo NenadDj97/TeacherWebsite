@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color"
+    content="#eaa5dc"
+    media=" (prefers-color-scheme: light)">
+    <meta name="theme-color"
+    content="#eaa5dc"
+    media=" (prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <title>Portfolio.</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    
+</head>
+
+<!-- navbar -->
+
+<body>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">Teacher Nini</div>
+            <ul class="menu">
+                <li><a id='onenav' href="#bio">About</a></li>
+                <li><a href="services-page/services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar-sticky">
+        <div class="max-width">
+            <div class="logo"><a href="#home">Teacher Nini</a></div>
+            <ul class="menu">
+                <li><a href="#bio">About</a></li>
+                <li><a href="services-page/services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- home section start -->
+<section class="home" id="home">
+    <div id="container">
+        <video id="bannervid" src="videos/banner.webm" autoplay muted></video>
+    </div>
+    <div class="max-width">
+</section>
+
+<!-- bio section start -->
+
+<section class="about" id="bio">
+    <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <div class="imgcont"><img src="images/about.jpg" alt=""></div>
+            </div>
+            <div class="column right">
+                <div class="text">
+                    Meet <span>Teacher Nini</span>
+                </div>
+                <p>
+                    Hi! My name is Nina and I am 22 years old. I am a certified teacher and I have been working for over 3 years. I am TESOL and TEFL certified and I taught students of all ages. I am also certified for teaching IELTS lessons. I help my students improve their speaking, reading and writing skills. I love teaching and I enjoy doing my job. I strive to help my students accomplish their goals and I am always there for them! I believe in creating and providing a pleasant and inspiring atmosphere. I am patient and intuitive with a relaxed and encouraging teaching style. I use many props, such as cards and toys. Thank you very much for choosing me as your teacher. I look forward to making our lessons fun, engaging and fulfilling. I am excited to meet you and see you shine in and out of my English classroom. 
+                </p>
+                
+                <div class="attributes">
+                    
+                    <div class="att first hover_effect">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="text">TESOL</div>
+                        <p>Certified Teacher
+                            <br>120 Hour Course
+                        </p>
+                    </div>
+                    
+                    <div class="att second hover_effect">
+                        <i class="fas fa-calendar-check"></i>
+                        <div class="text">3+ Years</div>
+                        <p>Online Teaching
+                            <br>Experience
+                        </p>
+                    </div>
+                    
+                    <div class="att third hover_effect">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="text">10 000+</div>
+                        <p>Classes Taught
+                            <br>Online
+                        </p>
+                    </div>
+                
+                </div>
+            </div>
+           
+        </div>
+        <!-- <div class="certificates"></div> -->
+    </div>
+</section>
+
+<!-- skills section start -->
+    
+<section class="skills" id="skills">
+    <div class="max-width">
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">
+                    Your Personal Tutor
+                </div>
+
+                <p>
+                    With me as your private tutor, you can reach your goals in the shortest time possible, while having fun! I will create a personalized English course for you so you can make progress at your own pace. I will build every class around your interests and make sure you focus on the language skills you need at the moment.
+                    <br>
+                    <br>Do you want to have longer or shorter classes? Do you want to study a certain topic one more time? Do you prefer to skip certain exercises and do what you like instead? 
+                    <br>
+                    <br>
+                    <span>YOU are in charge of your journey to SUCCESS! <i class="fas fa-check-circle"></i> </span>                </p>
+            </div>
+            <div class="column right">
+                <div class="video-container">
+                        
+                    <i id="triangle" onclick="enableControls();" class="fas fa-play" ></i>
+
+                    <video width="500" poster="images/poster.png" id='introvid'>
+
+                    <source src="videos/ninavidz.mp4" type="video/mp4">
+
+                </video>
+                </div>
+            </div>            
+</section>
+
+
+<!-- services section start -->
+<section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+            
+            <div class="card left hover_effect" id="card-left">
+                <div class="box">
+                    <i class="fas fa-book"></i>
+                    <div class="text">Specialized Courses</div>
+                    <p>Courses for all skill levels. 
+                        <br>From the very basics to conversation and complex dialogue.</p>
+                </div>
+            </div>
+
+            <div class="card center hover_effect" id="card-center">
+                <div class="box">
+                    <i class="fab fa-leanpub"></i>
+                    <div class="text">Flexible Learning</div>
+                    <p>Attend class anytime and anywhere. 
+                        <br>With lesson reviews and recordings of completed classes.</p>
+                </div>
+            </div>
+
+            <div class="card right hover_effect" id="card-right">
+                <div class="box">
+                    <i class="fas fa-child"></i>
+                    <div class="text">Courses for Kids</div>
+                    <p>Unlock your child's global future. 
+                        <br>Your personal tutor for your child's growth. 
+                        <br>Start them speaking early.</p>
+                </div>
+            </div>
+            <div class="learnmore"><a href="services-page/services.html">Learn More</i></a></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- feedback section start -->
+
+<section class="feedback" id="feedback">
+    <div class="max-width">
+        <h2 class="title">Client feedback</h2>
+        <div class="carousel owl-carousel owl-theme owl-loaded">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+                    <div class="card owl-item">
+                        <div class="box">
+                            <img src="images/feedback1.jpg" alt="">
+                            <div class="text">Maxim Orlov</div>
+                            <p>"Teacher Nini is very responsible and I love learning with her!"</p>
+                        </div>
+                    </div>
+                    <div class="card owl-item">
+                        <div class="box">
+                            <img src="images/feedback2.jpg" alt="">
+                            <div class="text">Adil Quadir</div>
+                            <p>"Nini's lessons are fun and engaging."</p>
+                        </div>
+                    </div>
+                    <div class="card owl-item">
+                        <div class="box">
+                            <img src="images/feedback3.jpg" alt="">
+                            <div class="text">Feride Avci</div>
+                            <p>"Sometimes we play games and sing songs when we learn English"</p>
+                        </div>
+                    </div>
+                    <div class="card owl-item">
+                        <div class="box">
+                            <img src="images/feedback4.jpg" alt="">
+                            <div class="text">Juvela Orabela</div>
+                            <p>"I am always happy to join Teacher Nini's class."</p>
+                        </div>
+                    </div>
+                </div>       
+            </div>            
+            <div class="owl-theme">
+                <div class="owl-controls">
+                    <div class="custom-nav owl-nav">
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section start -->
+<section class="contact">
+    <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text" id="contact">Get in Touch</div>
+                <p>Improve your English proficiency and confidence with me. All you need is your device! Contact me by sending a message on WeChat or by e-mail. Alternatively, you can fill out the form and I will contact you.</p>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Teacher</div>
+                            <div class="sub-title">Nina Velojic</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fab fa-weixin"></i>
+                        <div class="info chat">
+                            <div class="head">WeChat</div>
+                            <div class="sub-title">Teacher_Nini99</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info mail">
+                            <div class="head">Email</div>
+                            <div class="sub-title">something@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Book a Trial Class</div>
+                <form action="#">
+                    <div class="fields">
+                       <div class="field fname">
+                           <input type="text" placeholder="First Name" required>
+                       </div>
+                       <div class="field lname">
+                        <input type="text" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="fields">
+                       <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="field wechat">
+                            <input type="text" placeholder="WeChat/WhatsApp ID">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <select name="course" id="course" required>
+                            <option hidden value="" selected>Select Course</option>
+                            <optgroup label="- - - - - - - - Adults - - - - - - - -">
+                              <option value="beginner">Beginner</option>
+                              <option value="elementary">Elementary</option>
+                              <option value="intermediate">Intermediate</option>
+                              <option value="upper-intermediate">Upper-Intermediate</option>
+                              <option value="advanced">Advanced</option>
+                              <option value="proficient">Proficient</option>
+                            </optgroup>
+                            <optgroup label="- - - - - - - - - Kids - - - - - - - - -">
+                              <option value="preschool">Preschool</option>
+                              <option value="starter">Starter</option>
+                              <option value="elementary">Elementary</option>
+                              <option value="pre-intermediate">Pre-Intermediate</option>
+                            </optgroup>
+                            <optgroup label="- - - - - Flexible Courses - - - - -">
+                                <option value="listening">Listening</option>
+                                <option value="reading">Reading</option>
+                                <option value="writing">Writing</option>
+                                <option value="speaking">Speaking</option>
+                              </optgroup>
+                          </select>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Describe your learning expectations..." required></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Schedule Appointment</button>
+                    </div> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section start -->
+
+<footer>
+    <div class="max-width">
+    <span>Web Presentation Created By <a href="#">WaterFox Designs</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
