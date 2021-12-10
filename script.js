@@ -1,3 +1,15 @@
+const rVideo = document.getElementById("bannervid");
+    if (rVideo) {
+      rVideo.pause();
+      rVideo
+        .play()
+        .then((res) => {
+          console.log("playing start", res);
+        })
+        .catch((err) => {
+          console.log("error playing", err);
+        });
+    }
 
 
    /* navbar sticky */
