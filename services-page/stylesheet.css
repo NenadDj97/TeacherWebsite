@@ -983,10 +983,10 @@ p{
 
 
     section .title{
-        font-size: 30px;
+        font-size: 25px;
     }
     section .title::after{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .navbar{
