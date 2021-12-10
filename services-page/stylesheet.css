@@ -506,7 +506,7 @@ p{
 /* why styling */
 
 .why .title::after{
-    content: '- advantages of having a private tutor -'
+    content: '-advantages of having a private tutor-'
 }
 
 .why .why-content .card{
