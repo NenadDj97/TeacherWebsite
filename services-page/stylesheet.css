@@ -986,7 +986,7 @@ p{
         font-size: 25px;
     }
     section .title::after{
-        font-size: 15px;
+        font-size: 15px!important;
     }
 
     .navbar{
