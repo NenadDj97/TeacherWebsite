@@ -226,6 +226,7 @@ body{-webkit-user-select:none;-moz-user-select:-moz-none;
     -webkit-transition: height .5s ease;
     -o-transition: height .5s ease;
     transition: height .5s ease;
+	overflow: hidden;
     }
 
 .home::before{
